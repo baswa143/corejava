@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:/Users/ADMIN/IdeaProjects/VehicleServlet/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/ADMIN/IdeaProjects/VehicleServlet/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/servlet-api.jar"/>
+    <PostResources base="C:/Users/ADMIN/Downloads/mysql-connector-j-9.6.0/mysql-connector-j-9.6.0/mysql-connector-j-9.6.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-9.6.0.jar"/>
+  </Resources>
+</Context>

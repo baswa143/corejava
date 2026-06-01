@@ -1,0 +1,11 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1">>
+
+    <display-name>
+Employee
+    </display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp.html</welcome-file>
+    </welcome-file-list>
+</web-app>

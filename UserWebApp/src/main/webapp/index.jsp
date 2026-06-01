@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<%=req.getAttribute("msg")%>
+
+<form action="user" method="post">
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" name="name" placeholder="Enter Name"></td>
+        </tr>
+        <tr>
+            <td>Useremail:</td>
+            <td><input type="email" name="email" placeholder="Enter EmailID"></td>
+        </tr>
+        <tr>
+            <td>Userphno:</td>
+            <td><input type="number" name="phno" placeholder="Enter phonenumber"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="save" ></td>
+        </tr>
+
+
+    </table>
+</form>
+</body>
+</html>
